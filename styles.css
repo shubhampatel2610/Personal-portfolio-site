@@ -501,7 +501,7 @@ section{
     padding: 0.8rem;
     font-size: 1rem;
     border: 0.1rem solid var(--main-color);
-    border-radius: 0.6rem;
+    border-radius: 0.5rem;
 }
 
 .footer-icon-top a:hover{
