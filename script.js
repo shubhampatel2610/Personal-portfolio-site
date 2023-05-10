@@ -1,11 +1,13 @@
 // toggle menu icon in navbar
-let menuIcon = document.querySelector("#menu-icon");
-let navbar = document.querySelector(".navbar");
+let menuIcon = document.querySelectorAll("#menu-icon");
+menuIcon.forEach((i) => {
+  i.addEventListener("click", (e) => {
+    e.target.classList.toggle("fa-x");
+    navbar.classList.toggle("active");
+  });
+});
 
-menuIcon.onClick = () => {
-  menuIcon.classList.toggle("fa-x");
-  navbar.classList.toggle("active");
-};
+let navbar = document.querySelector(".navbar");
 
 // scroll sections
 let sections = document.querySelectorAll("section");
@@ -31,3 +33,11 @@ window.onscroll = () => {
   let header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 100);
 };
+
+// // when click on navbar links, remove toggle icon and navbar
+// menuIcon.forEach((i) => {
+//   i.addEventListener("click", (e) => {
+//     e.target.classList.remove("fa-x");
+//     navbar.classList.remove("active");
+//   });
+// });

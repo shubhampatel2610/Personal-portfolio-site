@@ -98,6 +98,7 @@ section{
 
 .home-content{
     max-width: 140rem;
+    z-index: 99;
 }
 
 .home-content img{
@@ -260,7 +261,7 @@ section{
     text-align: center;
 }
 
-.circle-spin{
+.about-img .circle-spin{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -272,6 +273,7 @@ section{
     border-bottom: 0.3rem solid var(--bg-color);
     border-left: 0.3rem solid var(--main-color);
     border-right: 0.3rem solid var(--main-color);
+    animation: aboutSpinner 8s linear infinite;
 }
 
 .about-content{
@@ -545,15 +547,32 @@ section{
     .navbar{
         position: absolute;
         top: 100%;
-        left: 0;
+        left: -100%;
         width: 100%;
         padding: 1rem 4%;
         background: var(--bg-color);
         box-shadow: 0 6px 6px -6px rgb(200, 200, 200);
+        transition: 0.2s ease;
+        transition-delay: 0.2s;
+    }
+    .navbar.active{
+        transition-delay: 0s;
+        left: 0;
     }
     .navbar a{
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+    .home-imgHover{
+        pointer-events: none;
+        background: var(--bg-color);
+        opacity: 0.6;
+    }
+}
+
+@keyframes aboutSpinner{
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
     }
 }
