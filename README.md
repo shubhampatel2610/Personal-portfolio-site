@@ -1,5 +1,7 @@
 # Personal-portfolio-site
 
+### Ignore the photos. I will add my own pics.
+
 ## Home page
 ![Screenshot (175)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/1154b99e-a343-4ccf-b7d4-73fda36ba27e)
 
