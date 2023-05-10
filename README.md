@@ -1,19 +1,19 @@
 # Personal-portfolio-site
 
 ## Home page
-![Screenshot (179)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/2920875e-e860-4ca0-aecc-4d04a6524898)
+![Screenshot (175)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/1154b99e-a343-4ccf-b7d4-73fda36ba27e)
 
 ## About page
-![Screenshot (175)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/9805dc61-0777-492f-b025-1fd3ff5e5d46)
+![Screenshot (176)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/201ae703-0ae3-48dc-be77-0d22d86cb12b)
 
 ## Education page
-![Screenshot (176)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/27e57ed4-0e8a-4ad6-b506-e85a5c5b89f8)
+![Screenshot (177)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/df836e01-352b-451e-ab5e-83356c3ecdf5)
 
 ## Skills page
-![Screenshot (177)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/c8ff8e80-2993-4a50-acea-f1ee5f029e58)
+![Screenshot (178)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/63846a0c-c479-42dd-8d21-c61fdafd0606)
 
 ## Contact page
-![Screenshot (178)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/dd98ca8b-074a-495a-9996-febb03fa0d39)
+![Screenshot (179)](https://github.com/shubhampatel2610/Personal-portfolio-site/assets/105007678/fd42fb26-a5f7-4088-acb7-08072d374e15)
 
 ## Responsive navbar behaviour
 ## Closed navbar
